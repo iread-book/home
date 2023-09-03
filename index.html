@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
 <head>
   <!-- <link rel="stylesheet" href="http://ebpaj.jp/cmspage/wp/wp-content/themes/ebpaj/css/styles.css">
@@ -7,94 +8,24 @@
   
   <title>爱读书-首页</title>
 
-  <script>
-      function newContent(i) {
-        if(i==='1'){
-          document.getElementById("list").innerHTML = "comming soon";
-        }else{
-
-          var customTextElement = document.getElementById('list');
-            document.getElementById("list").innerHTML = '<iframe type="type/html" data="about.html" height="10"></iframe>';
-        } 
-        
-      }
-    </script>
 
 
 </head>
   <body style='background-color:#b8a470'>
-    <header>
-        <h1 title="爱读书  alt="爱读书" title="爱读书">爱读书</h1>
-        <span><form role="search" method="get" id="searchform" action="https://iread-book.github.io/home/" >
-            <div>
-            <input type="text" value="" name="s" id="s" placeholder="查询-爱读书" />
-            <input type="submit" id="searchsubmit" value="查询" /><a style='background-color:#cccccc;border:1px solid ;padding: 1px;-webkit-border-radius: 10px'>查询</a>
-            </div>
-            </form></span>
-    </header>
+    <div id="header">
+      <iframe src="header.html"></iframe>
+    </div>
     <div class="breadcrumb">
         <a href="https://iread-book.github.io/home/">HOMEPGAE</a>
     </div>
-    <div id="wrap">
-        <article id="toppage">
-            <section>
-                更新情報
-                <div class="content">
-                <p>
-                  <ul id="list">
-                    <li></li>
-                    <li></li>
-                  </ul>
-
-
-
-                  <!-- 
-                  <li class="icon_information"><p>爱读书 介绍</p><time>2023.03.30</time></li>
-                  <li class="icon_aboutassociation"><p>更新情報</p><time>2023.03.14</time></li>
-                  -->
-                  <h1 class="head_1">
-                      <P>
-                          罗贯中 三国演义
-                          <a href="./resource/SGYY.epub" download>
-                            <b style='background-color:#99CC33;border:2px solid ;padding: 5px;-webkit-border-radius: 10px'>下载（EPUB）</b>
-                          </a>     
-                       </P>
-                       <P>
-                          曹雪芹 红楼梦
-                          <a href="./resource/HoLM.epub" download>
-                            <b style='background-color:#99CC33;border:2px solid ;padding: 5px;-webkit-border-radius: 10px'>下载（EPUB）</b>
-                          </a>     
-                       </P>
-                       <P>
-                          吴承恩 水浒传
-                          <a href="./resource/ShHZ.epub" download>
-                            <b style='background-color:#99CC33;border:2px solid ;padding: 5px;-webkit-border-radius: 10px'>下载（EPUB）</b>
-                          </a>     
-                       </P>
-                       <P>
-                          施耐庵 西游记
-                          <a href="./resource/XiYJ.epub" download>
-                            <b style='background-color:#99CC33;border:2px solid ;padding: 5px;-webkit-border-radius: 10px'>下载（EPUB）</b>
-                          </a>     
-                       </P>
-                    </h1>
-                </p>
-               </div>
-            </section>
-        </article>
-        <nav>
-          	<li class="active"><a href="https://iread-book.github.io/home/"><strong>爱读书 首页</strong></a></li>
-  	        <li><a onclick="newContent('2')"><strong>爱读书 介绍 </strong></a></li>
-	          <li><a onclick="newContent('1')"><strong>更新情报</strong></a></li>
-
-        </nav>
+    <div class="breadcrumb2">
+          <iframe src="content.html" scrollable="no" style="height:100%;width:100%;"></iframe>
     </div>
-  <footer>
-    <span><a href="#">PAGE TOP</a></span>
+   <footer>
+<!--   <span><a href="#">PAGE TOP</a></span>-->
     <div class="footer_in">
       Coming soon
     </div>
-  </footer>
-
+   </footer>
   </body>
 </html>

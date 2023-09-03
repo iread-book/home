@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+    <link rel="stylesheet" href="./css/ir.style.css">
+</head>
+<script>
+        function newContent(pageId) {
+          if(pageId==='1'){
+            document.getElementById("pageContent").innerHTML = "comming soon";
+          }else{
+  
+            var customTextElement = document.getElementById('pageContent');
+              document.getElementById("pageContent").innerHTML = '<iframe src="' + pageId + '.html" scrollable="no" style="height:300px"></iframe>';
+          } 
+          
+        }
+      </script>
+      <script language="javascript" type="text/javascript" src="js/m.js"></script>
+
+<body>
+    <contents>
+        <div id="left">
+            <nav>
+                <li class="active"><a href="#" onclick="gohome()"><strong>爱读书 首页</strong></a></li>
+                <li><a href="#" onclick="newContent('page1')"><strong>爱读书 介绍 1</strong></a></li>
+                <li><a href="#" onclick="newContent('page2')"><strong>爱读书 介绍 2</strong></a></li>
+                <li><a href="#" onclick="newContent('page3')"><strong>爱读书 介绍 3</strong></a></li>
+                <li><a href="#" onclick="newContent('page4')"><strong>更新情报 4   </strong></a></li>                            
+            </nav>
+        
+        </div>
+        <div id="right">
+            <div id="pageContent">书是人类进步的阶梯</div>
+        </div>
+
+</contents>
+</body>
+</html>
