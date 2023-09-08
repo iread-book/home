@@ -30,7 +30,7 @@ header span {
 }
 
 .breadcrumb {
-	width: 1024px;
+	width: 80%;
 	margin: 0 auto;
 	padding: 5px 0;
 	background: #1875d1;
@@ -41,7 +41,7 @@ header span {
 	height:350px;
 	margin: 0 auto;
 	padding: 5px 0;
-	background: #9ec796;
+	background: #ffffff; 
 	color: #fff;
 	overflow: hidden;
 }
