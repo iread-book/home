@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	font-size: 16px;
 	line-height: 26px;
-	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	font-family: "PingFang SC",miui,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
 }
 
 /* ===============================================================
@@ -38,7 +38,7 @@ header span {
 }
 .breadcrumb2 {
 	width: 80%;
-	height:350px;
+	height:324px;
 	margin: 0 auto;
 	padding: 5px 0;
 	background: #ffffff; 
@@ -90,3 +90,16 @@ iframe {
 	width: 100%;
 	}	
 
+
+
+	.top-box-cell {
+		display: table-cell;
+		vertical-align: top;
+		width: 445px;
+	}
+
+	.box3 {
+		border-width: 1px;
+		border-color: #fff #999 #999 #fff;
+		border-style: solid;
+	}
