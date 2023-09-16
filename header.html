@@ -9,12 +9,29 @@
 <body>
     <header>
         <h1 title="爱读书  alt="爱读书" title="爱读书">爱读书</h1>
-        <span><form role="search" method="get" id="searchform" action="" >
+        <span>
+                <form id="search" method="GET" action="https://www.google.com/search">
+                    <input type="hidden" name="ie" value="utf-8" />
+                    <input type="hidden" name="oe" value="utf-8" />
+                    <input type="hidden" name="hl" value="ja" />
+                    <input type="hidden" name="lr" value="lang_ja"/>
+                    <input type="hidden" name="as_sitesearch" value="iread-book.github.io"/>
+                    <a href="http://www.google.com/" target="_top"></a>
+                    <input type="text" name="q" size="20" maxlength="255" value=""/>
+                    <input type="submit" name="btnG" value="検索"/>
+                    (By <a href="http://www.google.com/">Google</a>)
+                  </form>
+
+
+<!--
+
+            <form role="search" method="get" id="searchform" action="" >
             <div>
             <input type="text" value="" name="s" id="s" placeholder="查询-爱读书" />           
             <a style='background-color:#cccccc;border:1px solid ;padding: 1px;-webkit-border-radius: 10px'>查询</a>
             </div>
             </form>
+-->
         </span>
     </header>
 </body>
