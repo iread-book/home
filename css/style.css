@@ -207,7 +207,7 @@ table.cgi-menu td b {
 	font-family: Verdana,Helvetica,Arial;
 }
 table.cgi-menu td strong, table.cgi-menu td b {
-	font-size: 12px;
+	font-size: 16px;
 	font-family: Verdana,Helvetica,Arial;
 }
 table.cgi-menu img {
@@ -701,7 +701,7 @@ img.top-line {
 	body {
 		font-size: 100%;
 		color: #222;
-		font-family: Verdana,"MS PGothic",Osaka,Arial,sans-serif;
+		font-family: "PingFang SC",miui,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
 		line-height: 1.2;
 		/* background: url(bg3.gif) scroll repeat center top; */
 	}
@@ -847,12 +847,12 @@ img.top-line {
 		display: none;
 	}
 	.cgi-menu tr {
-		width: 96%;
+		width: 94%;
 	}
 	.cgi-menu th, .cgi-menu td {
 		display: block;
 		text-align: left !important;
-		width: 96%;
+		width: 94%;
 		padding: 0;
 		white-space: normal !important;
 	}
@@ -869,22 +869,22 @@ img.top-line {
 		margin-right: 10px;
 	}
 	.cgi-menu .note {
-		width: 96% !important;
+		width: 94% !important;
 	}
 	.prog-name {
-		width: 96%;
+		width: 99%;
 	}
 	.det-btn, .dif-img { /* 解説ページボタン */
 		text-align: center;
-		width: 96%;
+		width: 99%;
 	}
 	/* 各解説ページヘッダ */
 	table.kai-head {
-		width: 96%;
+		width: 99%;
 		margin: 0 auto;
 	}
 	table.kai-head td.kai-ttl {
-		width: 96%;
+		width: 99%;
 	}
 	table.kai-head p {
 		text-align: center;
@@ -893,18 +893,18 @@ img.top-line {
 	/* メイン */
 	div.main {
 		text-align: center;
-		width: 96%;
+		width: 98%;
 	}
 	div.doc-box {
 		margin: 0 auto;
 		text-align: left;
-		width: 96%;
+		width: 94%;
 	}
 	
 	/* 本体 */
 	div.body {
 		margin: 1em auto 0 auto;
-		width: 96%;
+		width: 99%;
 		text-align: left;
 	}
 	/* - 共通 - */
@@ -920,12 +920,12 @@ img.top-line {
 	/* 注釈 */
 	div.note {
 		margin-top: 1.2em !important;
-		width: 96%;
+		width: 94%;
 		text-align: left !important;
 	}
 	/* 解説トップヘッダー部 */
 	table.top-ttl {
-		width: 96%;
+		width: 94%;
 		margin: 0 auto;
 	}
 	table.top-ttl td {
@@ -1086,9 +1086,10 @@ img.top-line {
 	div.chap {
     	color: #333;
 		font-weight: bold;
-    	padding: 2px;
+		width:96%;
+    	padding: 1px;
     	background-color: #D2D2FF;
-    	border-right: 1px solid #004080;
+    	border-right: 0px solid #004080;
     	border-bottom: 1px solid #004080;
 	}
 	/* メッセージ */
@@ -1243,22 +1244,22 @@ img.top-line {
 	.top-box {
 		/* margin-top: 6px; */
 		display: table;
-		width: 96%;
+		width: 99%;
 	}
 	.top-box-logo {
 		display: block;
 		vertical-align: top;
-		width: 96%;
+		width: 99%;
 	}
 	.top-box-rand {
 		display: block;
 		vertical-align: top;
-		width: 96%;
+		width: 99%;
 	}
 	.top-box-gsc {
 		display: block;
 		vertical-align: top;
-		width: 96%;
+		width: 99%;
 	}
 	.top-box-com {
 		display: block;
@@ -1267,12 +1268,12 @@ img.top-line {
 	.top-box-cnt {
 		display: block;
 		vertical-align: top;
-		width: 96%;
+		width: 99%;
 	}
 	.top-box-cell {
 		display: block;
 		vertical-align: top;
-		width: 96%;
+		width: 99%;
 		margin-top: 6px !important;
 	}
 	/* TOP PR-BOX */
@@ -1281,6 +1282,6 @@ img.top-line {
 		margin-top: 8px;
 		border: 1px dotted gray;
 		padding: 1px;
-		width: 96%;
+		width: 99%;
 	}
 }
