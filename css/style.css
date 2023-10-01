@@ -20,6 +20,12 @@ a:hover {
 	text-decoration: underline;
 	color: #dd0000;
 }
+hr {
+	width:25%;
+	text-align:left;
+	margin-left:0;
+	border-top:2px dotted blue;
+}
 
 /* TOPロゴ関連 */
 img#top-logo {
@@ -716,6 +722,12 @@ img.top-line {
 	a:hover {
 		text-decoration: underline;
 		color: #dd0000;
+	}
+	hr {
+		width:50%;
+		text-align:left;
+		margin-left:0;
+		border-top:2px dotted blue;
 	}
 	/* TOPロゴ関連 */
 	.pr {
