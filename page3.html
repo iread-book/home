@@ -3,6 +3,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width; initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 <head>
+        <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self';
+        script-src 'self' https://cse.google.com https://www.google.com https://www.gstatic.com;
+        style-src 'self' 'unsafe-inline' https://cse.google.com https://www.google.com;
+        img-src 'self' https://www.google.com https://ssl.gstatic.com;
+        connect-src 'self' https://cse.google.com;
+        font-src 'self' https://fonts.gstatic.com;
+      ">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/button.css">
     <title>小书虫</title>
