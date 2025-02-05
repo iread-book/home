@@ -7,6 +7,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title>小书虫</title>
+    <script>
+            // 使用 AJAX 获取访问次数
+            function loadCounter() {
+                fetch('counter.php')
+                    .then(response => response.text())
+                    .then(data => {
+                        document.getElementById('counter').innerHTML = data;
+                    })
+                    .catch(error => console.error('访问计数加载失败:', error));
+            }
+            window.onload = loadCounter; // 页面加载时执行
+    </script>
 </head>
 <body>
 <div class="main">
@@ -198,6 +210,8 @@
 <p class="num">
     Copyright &copy; <strong>iread-book</strong> 2023.
 </p>
+<h1>欢迎访问我们的网站</h1>    
+<div id="counter">加载中...</div> <!-- 访问次数将在这里显示 -->
 
 </div>
 </body>
