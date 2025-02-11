@@ -218,3 +218,83 @@
   box-shadow: 0 0 1px rgba(0, 0, 0, .2) inset, 
               5px 0 5px -3px rgba(0, 0, 0, .2) inset;
 }
+
+/* ===========================
+Google 自定义搜索框美化
+=========================== */
+
+/* 1️⃣ 去除默认的外框和背景 */
+.gsc-control-cse, 
+.gsc-control-cse .gsc-table-result, 
+.gsc-control-cse .gsc-thumbnail-inside, 
+.gsc-control-cse .gsc-thumbnail-left,
+.gsc-control-cse .gsc-input,
+.gsc-control-cse .gsc-results-wrapper-visible {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* 2️⃣ 美化搜索框 - 让它变圆角 */
+.gsc-input-box {
+    border: 1px solid #ccc !important;  /* 细边框 */
+    border-radius: 25px !important;  /* 圆角 */
+    padding: 10px 15px !important;
+    font-size: 16px !important;
+    width: 100% !important;
+    max-width: 400px !important;
+    background: white !important;
+}
+
+/* 3️⃣ 搜索按钮样式 */
+.gsc-search-button {
+    border: none !important;
+    border-radius: 25px !important;
+    background-color: #007bff !important; /* 默认蓝色 */
+    color: white !important;
+    padding: 10px 20px !important;
+    cursor: pointer !important;
+}
+
+/* 4️⃣ 悬停时按钮变深蓝色 */
+.gsc-search-button:hover {
+    background-color: #0056b3 !important;
+}
+
+/* 5️⃣ 隐藏 Google CSE 过多的边框 */
+.gsc-results-wrapper-nooverlay,
+.gsc-webResult.gsc-result,
+.gsc-control-cse .gsc-table-result {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* 6️⃣ 让搜索结果更清晰 */
+.gsc-webResult.gsc-result {
+    padding: 10px !important;
+    margin: 5px 0 !important;
+}
+
+/* 7️⃣ 去除 Google logo（可选） */
+.gsc-branding {
+    display: none !important;
+}
+
+/* 8️⃣ 搜索框外部容器优化 */
+.gsc-control-cse {
+    padding: 5px !important;
+    background: transparent !important;
+}
+/* 隐藏 "由 Google 提供的搜索" */
+.gsc-control-cse .gsc-table-cell-snippet-close,
+.gsc-control-cse .gsc-branding {
+    display: none !important;
+    visibility: hidden !important;
+}
+/* 当用户输入内容时，移除搜索框的边框 */
+.gsc-input:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;  /* 去除阴影 */
+}
