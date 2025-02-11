@@ -270,12 +270,6 @@ Google 自定义搜索框美化
     box-shadow: none !important;
 }
 
-/* 6️⃣ 让搜索结果更清晰 */
-.gsc-webResult.gsc-result {
-    padding: 10px !important;
-    margin: 5px 0 !important;
-}
-
 /* 7️⃣ 去除 Google logo（可选） */
 .gsc-branding {
     display: none !important;
