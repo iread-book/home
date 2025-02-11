@@ -250,7 +250,7 @@ Google 自定义搜索框美化
 .gsc-search-button {
     border: none !important;
     border-radius: 25px !important;
-    background-color: #007bff !important; /* 默认蓝色 */
+    background-color: #ff9100 !important; /* 默认蓝色 */
     color: white !important;
     padding: 10px 20px !important;
     cursor: pointer !important;
@@ -270,21 +270,10 @@ Google 自定义搜索框美化
     box-shadow: none !important;
 }
 
-/* 7️⃣ 去除 Google logo（可选） */
-.gsc-branding {
-    display: none !important;
-}
-
 /* 8️⃣ 搜索框外部容器优化 */
 .gsc-control-cse {
     padding: 5px !important;
     background: transparent !important;
-}
-/* 隐藏 "由 Google 提供的搜索" */
-.gsc-control-cse .gsc-table-cell-snippet-close,
-.gsc-control-cse .gsc-branding {
-    display: none !important;
-    visibility: hidden !important;
 }
 /* 当用户输入内容时，移除搜索框的边框 */
 .gsc-input:focus {
