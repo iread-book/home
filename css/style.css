@@ -6,7 +6,6 @@ body {
 	color: #222;
     font-family: "PingFang SC",miui,system-ui,-apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
 	line-height: 1.22;
-	background: url(bg3.gif) scroll repeat center top;
 }
 td {
 	text-align: left;
@@ -88,26 +87,21 @@ div.fl-r {
 .cell_wp {
 	color: white;
 	font-size: 12px;
-	background: url(../../img/wp18_33.gif);
 }
 .mainlink a, .lh-20 {
 	line-height: 20px;
 }
 .arrow {
-	background: url(../../img/arrow.gif) no-repeat 4px center;
 	padding-left: 18px;
 }
 .arrow-s {
-	background: url(../../img/arrow-s.gif) no-repeat 4px center;
 	padding-left: 16px;
 	margin-left: 1.2em;
 }
 .dotlink_r {
-	background: url(../../img/pt12-1-02.gif) no-repeat 4px center;
 	padding-left: 17px;
 }
 .ccllink_y {
-	background: url(../../img/lm01-03.gif) no-repeat 4px center;
 	padding-left: 17px;
 }
 .pr_tbl {
@@ -145,7 +139,6 @@ div.submit-btn input {
 /* 検索窓 */
 form.ksearch {
 	width: 200px;
-	background: url(../../img/input.gif) left top no-repeat;
 	display: block;
 	height: 24px;
 	position: relative;
@@ -326,7 +319,6 @@ div#enter-btn input {
 	font-size: 15px;
 }
 .ico-ttl {
-	background: url(../../img/arrow11_7.gif) no-repeat 4px center;
 	padding-left: 25px;
 	font-weight: bold;
 	color: navy;
@@ -781,19 +773,15 @@ img.top-line {
 		line-height: 20px;
 	}
 	.arrow {
-		background: url(../../img/arrow.gif) no-repeat 4px center;
 		padding-left: 18px;
 	}
 	.arrow-s {
-		background: url(../../img/arrow-s.gif) no-repeat 4px center;
 		padding-left: 16px;
 	}
 	.dotlink_r {
-		background: url(../../img/pt12-1-02.gif) no-repeat 4px center;
 		padding-left: 17px;
 	}
 	.ccllink_y {
-		background: url(../../img/lm01-03.gif) no-repeat 4px center;
 		padding-left: 17px;
 	}
 	.pr_tbl {
@@ -826,7 +814,6 @@ img.top-line {
 	/* 検索窓 */
 	form.ksearch {
 		width: 96%;
-		background: url(../../img/input.gif) left top no-repeat;
 		display: block;
 		height: 24px;
 		position: relative;
@@ -973,7 +960,6 @@ img.top-line {
 		background: #eee;
 	}
 	.ico-ttl {
-		background: url(../../img/arrow11_7.gif) no-repeat 4px center;
 		padding-left: 25px;
 		font-weight: bold;
 		color: navy;
